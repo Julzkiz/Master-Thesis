@@ -1,0 +1,1 @@
+This thesis investigated the development and application of a Finite Element Method (FEM) plugin within the Grasshopper environment to enhance structural analysis and optimisation. The study focused on creating a parametric tool that allowed for quick, preliminary evaluations of structural design.

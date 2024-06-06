@@ -1,0 +1,17 @@
+﻿using Rhino.Geometry;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Gecko
+{
+    internal class Support
+    {
+        public string name;
+        public int ID;
+        public Point3d point;
+        public List<int> bcds;
+    }
+}

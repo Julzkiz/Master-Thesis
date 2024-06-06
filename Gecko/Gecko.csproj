@@ -1,15 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	
   <PropertyGroup>
-    <TargetFrameworks>net7.0;net48</TargetFrameworks>
+    <TargetFrameworks>net7.0</TargetFrameworks>
     <Version>1.0</Version>
     <Title>Gecko</Title>
     <Description>Description of Gecko</Description>
     <TargetExt>.gha</TargetExt>
+    <BaseOutputPath>C:\Users\julia\AppData\Roaming\Grasshopper\Libraries</BaseOutputPath>
   </PropertyGroup>
   
   <ItemGroup>
-    <PackageReference Include="Grasshopper" Version="8.0.23164.14305-wip" IncludeAssets="compile;build" />
+    <PackageReference Include="Grasshopper" Version="8.7.24138.15431" IncludeAssets="compile;build" />
+    <PackageReference Include="MathNet.Numerics" Version="5.0.0" />
   </ItemGroup>
 
 </Project>
